@@ -1,6 +1,9 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 H1 {
@@ -16,8 +19,9 @@ a {
   text-decoration: none;
 }
 
+
 header{
-  background-color: rgb(3, 3, 109);
+  background-color: rgb(63, 81, 105);
   display: block;
   left: 0;
   position: sticky;
@@ -38,38 +42,86 @@ header{
   margin-top: 20px;
 }
 
-
 .sidebar {
   position: sticky;
-  top: 0;
-  left: 0; /* Toegevoegd om de sidebar aan de linkerkant te positioneren */
-  height: 100vh;
+  top: 0px;
+  left: 50px; /* Toegevoegd om de sidebar aan de linkerkant te positioneren */
+  height: 0px;
   width: 200px;
-  background-color: #ffffff;
   padding: 20px;
   text-align: center;
 }
 
 .content {
+  position: sticky;
   margin-left: 75%;
   padding: 20px;
 }
 
 /* Optionele stijlen voor de links in de sidebar */
 .sidebar ul {
+  position: sticky;
   list-style-type: none;
   padding: 0;
 }
 
 .sidebar ul li {
+  position: sticky;
   margin-bottom: 10px;
 }
 
 .sidebar ul li a {
+  position: sticky;
   text-decoration: none;
   color: #333;
 }
 
 .sidebar ul li a:hover {
   color: #000;
+}
+
+.navigatie {
+  margin-top: 45px;
+}
+
+ul.navigatie {
+  padding-top: 40px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.md-footer {
+  margin-top: 50px;
+  height: 70px;
+  background-color: black;
+  color: white;
+}
+
+.md-copyright {
+  margin-left: 15%;
+  padding-top: 15px;
+}
+
+.haarlem-logo-nav {
+  height: 120px;
+}
+
+H1.haarlem-apv-title {
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.straffenblok {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+}
+
+.st-footer {
+  margin-top: 50px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  margin-top: auto;
 }
